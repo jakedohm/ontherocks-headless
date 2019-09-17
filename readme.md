@@ -16,8 +16,9 @@ Run `composer install` to install all of the necessary dependencies.
 
 ### 3. Configure your environment
 
+1. Clone `.env.example` to and create `.env`
 1. Run `./craft setup/security-key` to create a security key
-2. Open the `.env` file in the project root, and make any necessary configurations (DB server/user/pass, etc.)
+1. Open your new `.env`, and make any necessary configurations (DB server/user/pass, etc.)
 
 ## Gridsome
 
@@ -27,10 +28,8 @@ For these steps you'll need to run the following commands within the "frontend" 
 
 Run `yarn` or `npm install` to install all of the necessary dependencies.
 
-### 2. Configure your environment
-
-Create an `.env` file in the `frontend` directory based off of the `.env.example` file. Then configure the `CRAFT_API_URL` environmental variable to point at the base URL for your Craft installation + '/api'. i.e. if you're craft installation is up and running at `http://angrybrad.test`, set the env variable to `http://angrybrad.test/api`.
-
-### 3. Make sure everything's working
+### 2. Make sure everything's working
 
 Run `yarn dev` or `npm run dev`. Assuming you don't hit any errors (fingers crossed), when everything's done running you should see two URLs in the console: one will be the development site we'll be building on, and the second is a GraphQL playground that is integrated with Gridsome.
+
+**Note**: Do not run `gridsome develop` directly, as this project has some pre/post command hooks set up
