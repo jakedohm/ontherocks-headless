@@ -1,0 +1,7 @@
+/.env
+/.idea
+/node_modules
+/vendor
+/web/images/**/_*
+.DS_Store
+src/components/icons
