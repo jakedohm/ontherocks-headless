@@ -23,13 +23,16 @@
         <div class="bg-grey-light py-6 br rounded">
           <div class="container mx-auto px-6">
             <div class="md:flex -mx-4">
-              <div class="mb-1 md:mb-0 px-4 w-full">
+              <div class="flex mb-1 md:mb-0 mx-4 w-full">
                 <input
                   id="search"
-                  class="text-input"
+                  class="text-input rounded-r-none"
                   type="text"
                   placeholder="Search by keyword"
                 />
+                <button class="-ml-1 px-4 rounded-r bg-blue-dark text-white">
+                  Search
+                </button>
               </div>
             </div>
           </div>
