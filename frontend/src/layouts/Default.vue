@@ -4,11 +4,13 @@
   </div>
 </template>
 
+<!--
 <static-query>
 query {
-  # ...
+  
 }
 </static-query>
+-->
 
 <script>
 export default {
