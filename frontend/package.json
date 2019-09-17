@@ -5,8 +5,7 @@
     "icons": "vsvg -s src/assets/icons -t src/components/icons",
     "prebuild": "yarn icons",
     "build": "gridsome build",
-    "predevelop": "yarn icons",
-    "develop": "gridsome develop",
+    "predev": "yarn icons",
     "dev": "gridsome develop",
     "explore": "gridsome explore"
   },
