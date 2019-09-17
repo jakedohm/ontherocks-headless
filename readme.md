@@ -1,4 +1,4 @@
-# Getting Set up
+# Getting Up and Running
 
 The following steps will help you set up 1) a Craft installation, with pre-made content and 2) a basic Gridsome project that we'll be working on together.
 
