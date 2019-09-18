@@ -3,9 +3,9 @@
   "private": true,
   "scripts": {
     "icons": "vsvg -s src/assets/icons -t src/components/icons",
-    "prebuild": "yarn icons",
+    "prebuild": "nyr icons",
     "build": "gridsome build",
-    "predev": "yarn icons",
+    "predev": "nyr icons",
     "dev": "gridsome develop",
     "explore": "gridsome explore"
   },
@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
+    "nyr": "^1.1.0",
     "tailwindcss": "^0.7.4",
     "vue-svgicon": "^3.2.6"
   }
