@@ -33,3 +33,9 @@ Run `yarn` or `npm install` to install all of the necessary dependencies.
 Run `yarn dev` or `npm run dev`. Assuming you don't hit any errors (fingers crossed), when everything's done running you should see two URLs in the console: one will be the development site we'll be building on, and the second is a GraphQL playground that is integrated with Gridsome.
 
 **Note**: Do not run `gridsome develop` directly, as this project has some pre/post command hooks set up
+
+## Information
+
+### Craft Admin Credentials
+- Username: `admin`
+- Password: `happyBrad`
